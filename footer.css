@@ -1,0 +1,33 @@
+footer {
+    background: #a64d79;
+    height: 80px;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    font-family: montserrat;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer p {
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.alineacion_div_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

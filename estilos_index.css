@@ -1,0 +1,39 @@
+.fondo {
+        margin: 0;
+        padding: 0;
+        background: url(images/fondo.jpg);
+        width: 100%;
+        height: 100%;
+        min-width: 564px;
+        min-height: 1002px;
+        font-family: sans-serif;
+}
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+.grid_container {
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-rows: 1fr 3fr 1fr;
+        grid-gap: 10px;
+        align-content: center;
+        justify-content: space-around;
+}
+
+.grid_item {
+        box-sizing: border-box;
+}
+
+.galeria_index {
+        box-sizing: border-box;
+        border: 50px;
+        margin: 10px;
+        padding: 10px;
+        background-color: white;
+        max-width: 800px;
+        max-height: 414px;
+}
